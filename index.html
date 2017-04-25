@@ -2,11 +2,16 @@
 <html>
   <head>
     <title>Google</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
   </head>
   <body>
-    <img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_284x96dp.png" alt="Google" />
+    <img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_284x96dp.png" alt="Google" class="googleLogo" />
     <form action="#" method="post">
-      <input type="text" name="google-search" />
+      <input type="text" name="google-search" class="searchInput" />
+      <div class="btn-container">
+        <input type="button" name="google-search-btn" value="Google Search" class="search-btn" />
+        <input type="button" name="google-search-lucky-btn" value="I'm Feeling Lucky" class="search-lucky-btn" />
+      </div>
     </form>
 
   </body>

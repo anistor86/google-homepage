@@ -1,0 +1,34 @@
+.googleLogo {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  margin-top: 180px;
+  display: block;
+}
+
+.searchInput {
+  position: relative;
+  width: 500px;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  font-size: 20px;
+}
+.search-btn{
+  width: 120px;
+  height: 30px;
+}
+.search-lucky-btn{
+  width: 220px;
+  height: 30px;
+}
+.btn-container{
+  position: relative;
+  width: 500px;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
